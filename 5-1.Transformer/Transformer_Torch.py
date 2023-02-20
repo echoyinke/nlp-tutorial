@@ -19,6 +19,9 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.utils.data as Data
 
+
+
+
 # S: Symbol that shows starting of decoding input
 # E: Symbol that shows starting of decoding output
 # P: Symbol that will fill in blank sequence if current batch data size is short than time steps
